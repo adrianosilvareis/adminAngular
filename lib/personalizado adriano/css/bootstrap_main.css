@@ -1,0 +1,288 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.section{
+	padding: 3% 10%;
+	position: relative;
+}
+
+.container{
+	padding: 1%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid-956{
+	max-width: 956px;
+}
+
+.row{
+	padding: 0 1%;
+}
+
+/*MENU*/
+.navbar {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
+}
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+}
+.nav > li.disabled > a {
+  color: #777777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777777;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #337cbb;
+}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav > li > a > img {
+  max-width: none;
+}
+
+/*MENU STYLE*/
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 1%;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #337cbb;
+}
+
+
+/*CLEARFIX*/
+.row:before, .row:after, .nav:before, .nav:after{
+    content: "";    
+    display: table;
+}
+
+.row:after,.nav:after{
+    clear: both;
+}
+
+/*IMAGENS*/
+
+.img-responsive{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+/*COLUNAS*/
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{float: left; padding: 0 1%}
+.col-12{width: 100%;}
+.col-11{width: 89.666666%;}
+.col-10{width: 81.333333%;}
+.col-9{width: 73%;}
+.col-8{width: 64.666666%;}
+.col-7{width: 56.333333%;}
+.col-6{width: 48%;}
+.col-5{width: 39.666666%}
+.col-4{width: 31.333333%;}
+.col-3{width: 23%}
+.col-2{width: 14.666666%}
+.col-1{width: 6.333333%}
+
+/*Botoes*/
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn:hover{
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+}
+
+.btn-default{
+	color: #000;
+	background-color: transparent;
+	border-color: #EEE;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #2f6ac2;
+	border-color: #2e6da4;
+}
+
+.btn-warning {
+	color: #000;
+	background-color: #F0AD4E;
+	border-color: #eea236;
+}
+
+.btn-success{
+	color: #FFF;
+	background-color: #50AD2A;
+	border-color: #72bd54;
+}
+
+.btn-info{
+	color: #000;
+	background-color: #ADCDE6;
+	border-color: #8aa4b8;
+}
+
+.btn-danger{
+	color: #000;
+	background-color: #FF4B32;
+	border-color: #cc3c28;
+}
+
+
+
+/*CORES*/
+.bg-color-branco{
+	background: white;
+}
+
+.bg-color-rosa{
+	background: #FFC0CB;
+}
+
+.bg-color-azul{
+	background: blue;
+}
+
+.bg-color-amarelo{
+	background: yellow;
+}
+
+.bg-color-verde{
+	background: green;
+}
+
+/*HELPER*/
+.bg-primary{
+	background: #2f6ac2;
+	color: #FFF;
+}
+
+.bg-primary-2{
+	background: #006eff;
+	color: #FFF;
+}
+
+.bg-success{
+	background: #50AD2A;
+	color: #FFF;
+}
+
+.bg-info{
+	background: #ADCDE6;
+	color: #000;
+}
+
+.bg-warning{
+	background: #F0AD4E;
+	color: #000;
+}
+
+.bg-danger{
+	background: #FF4B32;
+	color: #000;
+}
+
+/*ESTILOS*/
+.radius-p{
+	border-radius: 5px;
+}
+.radius-m{
+	border-radius: 10px;
+}
+.radius-g{
+	border-radius: 15px;
+}
+.well{
+	background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+.divisoria{
+	height: 15px;
+}
+
+/*TEXTOS*/
+.copy{
+	font-size: 0.9em;
+	color: #4682B4;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.notext{
+	font-size: 0;
+}
+
+.bloco{
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	padding: 80px;
+	border-radius: 15px;
+	text-align: center;
+	float: left;
+}
